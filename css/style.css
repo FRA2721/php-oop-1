@@ -1,0 +1,19 @@
+/* general reset formattinmg section */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* image formatting section */
+img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+}
+
+/* tipography formatting section */
+h1{
+    padding: 5rem;
+}

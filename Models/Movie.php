@@ -12,6 +12,7 @@ class Movie{
     // attributes
 
     // public $title;
+    // public $poster;
     // public $movie_director;
     // public $production;
     // public $duration;
@@ -23,6 +24,7 @@ class Movie{
     public function __construct(public String $title, public String $movie_director, public String $production, public int $duration, public int $release_date, public String $genre, public String $description) {
 
         $this->title = $title;
+        // $this->poster = $poster;
         $this->movie_director = $movie_director;
         $this->production = $production;
         $this->duration = $duration;
@@ -37,8 +39,9 @@ class Movie{
      * @author FRANCESCO CIMINO
      */
     public function getData() {
-        return "Title: $this->title, Movie Director: $this->movie_director, Production: $this->production, Duration: $this->duration,Release Date: $this->release_date,Genre: $this->genre, Description: $this->description";
+        return "Title: $this->title, Movie Director: $this->movie_director, Production: $this->production, Duration: $this->duration,Release Date: $this->release_date, Genre: $this->genre";
     }
+
 }
 
 ?>
